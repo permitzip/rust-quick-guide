@@ -18,4 +18,9 @@
 
 ## Advanced
 
-* [TBD](advanced/tbd.md)
+* [Functional Language Features](advanced/functional-language-features.md)
+* [Closures](advanced/closures.md)
+
+***
+
+* [Iterators](iterators.md)
