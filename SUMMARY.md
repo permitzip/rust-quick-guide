@@ -21,3 +21,4 @@
 * [🚧 Functional Language Features](advanced/functional-language-features/README.md)
   * [💌 Closures](advanced/functional-language-features/closures.md)
   * [📡 Iterators](advanced/functional-language-features/iterators.md)
+  * [😃 Combining Iterators and Closures](advanced/functional-language-features/combining-iterators-and-closures.md)
