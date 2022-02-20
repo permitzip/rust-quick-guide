@@ -25,7 +25,7 @@ This book is intended to be a trimmed-down version of the official documentation
 
 Rust is such a comprehensive shift in programming though and so this summary hopes to serve as a fast way to grasp core concepts and fundamentals.
 
-Each chapter includes the examples that were mot impatful for me in understanding the concepts. More time is given to Rust-specific concepts like ownership, generic types, traits, lifetime, etc.&#x20;
+Each chapter includes the examples that were most impactful for me in understanding the concepts. More time is given to Rust-specific concepts like ownership, generic types, traits, lifetime, etc.&#x20;
 
 This book is broken into two main categories
 
@@ -37,9 +37,9 @@ This did not include beginner (aka setup tutorial etc) because the original webs
 ### Who am I?
 
 * I'm an electrical engineer with a piano degree that runs an MEP consulting engineering firm called [PermitZIP](http://www.permitzip.com).&#x20;
-* Recent 'serious' dev experience started March 2021
-* I am autodidactive which is why this document was created.&#x20;
-* Hopefully it's useful to you - please feel free to contribute when it
+* Started studies in software development= March 2021
+* I prefer self-study over educational institutions...which is why this document exists.&#x20;
+* Hopefully, it's useful to you - please feel free to contribute when it
   * increases clarity
   * increases simplicity
   * corrects typos
