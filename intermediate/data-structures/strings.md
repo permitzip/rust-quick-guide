@@ -9,7 +9,7 @@ A `String` is a collection of characters.
 
 `Strings` are more complicated than many developers give them credit for, and these are UTF-8 making it more prone to confusion.
 
-Rust has only one string type in the core lanugage, which is the string slice `str` that is usually seen in its borrowed form `&str`.
+Rust has only one string type in the core language, which is the string slice `str` that is usually seen in its borrowed form `&str`.
 
 The `String` type in the std library, rather than coded into the core, is a growable, mutable, owned, UTF-i encoded string type.
 
@@ -67,7 +67,7 @@ fn main() {
 t
 ```
 
-The type annotation `HashMap<_,_>` is needed because it's possible to `collect` into many different data structures and Rust doesn'tk now which you want unless you specify.
+The type annotation `HashMap<_,_>` is needed because it's possible to `collect` into many different data structures and Rust doesn't know which you want unless you specify.
 
 **Ownership:** for values that implement the `Copy` trait, values are copied into the `HashMap`. For owned values, the values will be moved and the `HashMap` will be the owner of those values.
 

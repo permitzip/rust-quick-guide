@@ -128,7 +128,7 @@ When we entered `*y` , behind the scenes, Rust actually ran:
 
 `Deref coercion` is a convenience that Rust performs on arguments to functions and methods. It happens automatically when we pass a reference to a particular type's value as an argument to a function or method that doesn't match the parameter type in the function or method definition (eg `&String` to &`str` because `String` implements the `Deref` trait such that it returns `&str`.&#x20;
 
-It's purpose is to aid in limiting the explicit references and dereferences with `&` and `*`.
+Its purpose is to aid in limiting the explicit references and dereferences with `&` and `*`.
 
 ```rust
 fn hello(name: &str) {

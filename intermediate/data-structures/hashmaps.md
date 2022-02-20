@@ -42,7 +42,7 @@ fn main() {
 t
 ```
 
-The type annotation `HashMap<_,_>` is needed because it's possible to `collect` into many different data structures and Rust doesn'tk now which you want unless you specify.
+The type annotation `HashMap<_,_>` is needed because it's possible to `collect` into many different data structures and Rust doesn't know which you want unless you specify.
 
 **Ownership:** for values that implement the `Copy` trait, values are copied into the `HashMap`. For owned values, the values will be moved and the `HashMap` will be the owner of those values.
 

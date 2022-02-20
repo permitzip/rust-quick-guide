@@ -51,4 +51,4 @@ fn main() {
 
 ```
 
-Adding `else` with `if let` would operate similarly to the `_` pattern shown above in the first exampe.
+Adding `else` with `if let` would operate similarly to the `_` pattern shown above in the first example.

@@ -9,7 +9,7 @@ coverY: 0
 
 `Closures` are identified with a pair of vertical pipes `|numb|`or `|param1, param2|` etc.
 
-`Closures` are usually short and relevant only within a narrow context rather thanin any arbitrary scenario.
+`Closures` are usually short and relevant only within a narrow context rather than in any arbitrary scenario.
 
 {% hint style="success" %}
 Unlike functions, closures can capture values from the scope in which they're defined. More on that later in this section...
@@ -64,7 +64,7 @@ fn main() {
 
 ```
 
-Ok so we have some fake values, a fake 2 second function to do imaginary work on a back end and the core business logic function called `generate_workout`.
+Ok so we have some fake values, a fake 2-second function to do imaginary work on a back end and the core business logic function called `generate_workout`.
 
 The problem is that in its current form the code is calling the expensive function multiple times, increasing the user experience exposure to the slow backend work.
 
@@ -92,7 +92,7 @@ The issue above is the long-time function occurs first, and blocks the remaining
 We can store the `closure` in a variable rather than the result of a function call.
 
 {% hint style="info" %}
-The type annotations of parameter and return values is options and not necessarily practiced in the world of one-off `closure` implementation.
+The type annotations of parameter and return values are options and not necessarily practiced in the world of one-off `closure` implementation.
 {% endhint %}
 
 ```rust
@@ -142,9 +142,9 @@ fn main() {
 
 ```
 
-So the problem still isn't solved because this slow function is stil being called twice in the first `if` statement.
+So the problem still isn't solved because this slow function is still being called twice in the first `if` statement.
 
-Next, we use a `Struct` to hold the `closure` and store the value in cache to implement a _lazy evaluation_ pattern.
+Next, we use a `Struct` to hold the `closure` and store the value in the cache to implement a _lazy evaluation_ pattern.
 
 ```rust
 // this struct will hold the closure in `calculation`
@@ -159,7 +159,7 @@ where
 fn main() {}
 ```
 
-This will execute the business logic one time and store value in cache. Thereafter it will recall the cache, bypass the backend.
+This will execute the business logic one time and store value in the cache. Thereafter it will recall the cache, bypass the backend.
 
 ```rust
 struct Cacher<T>

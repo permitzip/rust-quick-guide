@@ -9,7 +9,7 @@ coverY: 0
 
 Packages are a `Cargo` feature that lets you build, test, and share crates.&#x20;
 
-* The `bin` folder will be named after the folder where the _`src/main.rs`_ file is locate. This defines the `package`.
+* The `bin` folder will be named after the folder where the _`src/main.rs`_ file is located. This defines the `package`.
 * If a package contains both _`ssrc/main.rs`_ and _`src/lib.rs`_ then the `package` has two crates (a library and a binary)
 
 ## Crates
@@ -20,7 +20,7 @@ A `crate` is a tree of modules that produces a library or executable.
 
 **Modules** and **use:** Let you control the organization, scope, and privacy of paths.
 
-* `Modules` organize code within a crate into groups for readability. `Modules` also control the _privacy_ of items (if they can be used outside of the code (_public)._
+* `Modules` organize code within a crate into groups for readability. `Modules` also controls the _privacy_ of items (if they can be used outside of the code (_public)._
 
 {% code title="scr/lib.rs" %}
 ```rust
@@ -62,8 +62,8 @@ crate
 
 **Paths** are a way of naming an item, such as a struct, function, or module
 
-* absolute path starts from a crate root by using crate name or literal crate
-* relative path starts from the current module and uses `self`, `super`, or an identifier in the current module
+* an absolute path starts from a crate root by using crate name or literal crate
+* a relative path starts from the current module and uses `self`, `super`, or an identifier in the current module
 
 ### Starting Relative Paths with Super
 
@@ -91,9 +91,9 @@ Making `enum` public _does_ make all of the variants public.
 
 ### Bringing Paths into Scope with the use Keyword
 
-The `use` keyword helps bring moduls into scope to simplify the path when calling functions or objects.
+The `use` keyword helps bring modules into the scope to simplify the path when calling functions or objects.
 
-Adding `use` and a path in a scope is similar to creating a symbolic link in the filesystem.
+Adding `use` and a path in scope is similar to creating a symbolic link in the filesystem.
 
 Below is an example with a relative path:
 
@@ -132,6 +132,6 @@ fn function2() -> IoResult<()> {
 
 ```
 
-A name import with the `use` keyword creates a name which is scoped to private. To enable the code that calls our code to refer to that name as if it had been defined in that code's scope, we combine `pub` and `use`.
+A name import with the `use` keyword creates a name that is scoped to private. To enable the code that calls our code to refer to that name as if it had been defined in that code's scope, we combine `pub` and `use`.
 
 The `*` is the glob operator and allows bulk import or all public items defined in a path into scope (often useful for writing tests).

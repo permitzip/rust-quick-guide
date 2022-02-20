@@ -18,17 +18,17 @@ v.push(4);
 v.push(5); // add more values in vector
 ```
 
-Access vectors with bracket notation, index starts at 0.
+Access vectors with bracket notation, the index starts at 0.
 
 Requestion an index to a nonexistent element causes the program to panic.
 
-To avoid panic use the `get` method which returnes `None` without panicking if index is outside of the vector.
+To avoid panic use the `get` method which returns `None` without panicking if the index is outside of the vector.
 
 If the vector (or a reference to vector value(s)) is borrowed, the vector cannot be modified.
 
 ### Using Vectors as Enums for MultiType Storage
 
-`Vectors` can only store values that are the same type. However, if you defined an `enum` and create a vector of `enum` elements, you technically are making a list of `enums` but each is defined within the `enum` spec differently. See example:
+`Vectors` can only store values that are the same type. However, if you defined `enum` and create a vector of `enum` elements, you technically are making a list of `enums` but each is defined within the `enum` spec differently. See example:
 
 ```rust
 fn main() {
