@@ -9,12 +9,12 @@
   * [🔌 Vectors](intermediate/data-structures/vectors.md)
   * [🧵 Strings](intermediate/data-structures/strings.md)
   * [🗺 HashMaps](intermediate/data-structures/hashmaps.md)
+  * [💪 Extensible Features](intermediate/data-structures/extensible-features/README.md)
+    * [🧱 Generic Types](intermediate/data-structures/extensible-features/generic-types.md)
+    * [™ Traits](intermediate/data-structures/extensible-features/traits.md)
+    * [👾 Lifetime](intermediate/data-structures/extensible-features/lifetime.md)
 * [📦 Packages, Crates, Modules](intermediate/packages-crates-modules.md)
 * [🔀 Error Handling](intermediate/error-handling.md)
-* [💪 Extensible Features](intermediate/extensible-features/README.md)
-  * [🧱 Generic Types](intermediate/extensible-features/generic-types.md)
-  * [™ Traits](intermediate/extensible-features/traits.md)
-  * [👾 Lifetime](intermediate/extensible-features/lifetime.md)
 
 ## Advanced
 
