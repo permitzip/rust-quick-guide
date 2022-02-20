@@ -22,3 +22,7 @@
   * [💌 Closures](advanced/functional-language-features/closures.md)
   * [📡 Iterators](advanced/functional-language-features/iterators.md)
   * [😃 Combining Iterators and Closures](advanced/functional-language-features/combining-iterators-and-closures.md)
+* [✨ Smart Pointers](advanced/smart-pointers/README.md)
+  * [🏟 Box\<T>](advanced/smart-pointers/box-less-than-t-greater-than.md)
+  * [🤝 Rc\<T>](advanced/smart-pointers/rc-less-than-t-greater-than.md)
+  * [🔙 Ref\<T> and RefMut\<T>](advanced/smart-pointers/ref-less-than-t-greater-than-and-refmut-less-than-t-greater-than.md)
