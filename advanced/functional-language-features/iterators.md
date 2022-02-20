@@ -1,8 +1,9 @@
 ---
 description: Processing a series of items.
+coverY: 0
 ---
 
-# Iterators
+# 📡 Iterators
 
 The iterator pattern allows you to perform some tasks on a sequence of items in turn. It is responsible for the logic of iterating over each item and determining when the sequence has finished.
 

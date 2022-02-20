@@ -1,8 +1,9 @@
 ---
 description: The next sections will cover the Iterators and Closures in Rust.
+coverY: 0
 ---
 
-# Functional Language Features
+# 🚧 Functional Language Features
 
 Rust is heavily influenced by _functional programming_. This often includes using functions as values by passing them in arguments, returning them or other functions, assigning them to variables for later execution, and so forth.
 

@@ -1,8 +1,9 @@
 ---
 description: Anonymous functions that can capture their environment.
+coverY: 0
 ---
 
-# Closures
+# 💌 Closures
 
 `Closures` are anonymous functions you can save in a variable or pass as arguments to other functions.&#x20;
 

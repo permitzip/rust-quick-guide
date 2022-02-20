@@ -18,9 +18,6 @@
 
 ## Advanced
 
-* [Functional Language Features](advanced/functional-language-features.md)
-* [Closures](advanced/closures.md)
-
-***
-
-* [Iterators](iterators.md)
+* [🚧 Functional Language Features](advanced/functional-language-features/README.md)
+  * [💌 Closures](advanced/functional-language-features/closures.md)
+  * [📡 Iterators](advanced/functional-language-features/iterators.md)
