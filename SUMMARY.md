@@ -1,6 +1,6 @@
 # Table of contents
 
-* [⛵ About](README.md)
+* [⛵ Introduction](README.md)
 
 ## Core Knowledge
 
