@@ -2,19 +2,19 @@
 
 * [⛵ About](README.md)
 
-## Intermediate
+## Core Knowledge
 
-* [🎋 Data Structures](intermediate/data-structures/README.md)
-  * [🎰 Enums and Pattern Matching](intermediate/data-structures/enums-and-pattern-matching.md)
-  * [🔌 Vectors](intermediate/data-structures/vectors.md)
-  * [🧵 Strings](intermediate/data-structures/strings.md)
-  * [🗺 HashMaps](intermediate/data-structures/hashmaps.md)
-  * [💪 Extensible Features](intermediate/data-structures/extensible-features/README.md)
-    * [🧱 Generic Types](intermediate/data-structures/extensible-features/generic-types.md)
-    * [™ Traits](intermediate/data-structures/extensible-features/traits.md)
-    * [👾 Lifetime](intermediate/data-structures/extensible-features/lifetime.md)
-* [📦 Packages, Crates, Modules](intermediate/packages-crates-modules.md)
-* [🔀 Error Handling](intermediate/error-handling.md)
+* [🎋 Data Structures](core-knowledge/data-structures/README.md)
+  * [🎰 Enums and Pattern Matching](core-knowledge/data-structures/enums-and-pattern-matching.md)
+  * [🔌 Vectors](core-knowledge/data-structures/vectors.md)
+  * [🧵 Strings](core-knowledge/data-structures/strings.md)
+  * [🗺 HashMaps](core-knowledge/data-structures/hashmaps.md)
+  * [💪 Extensible Features](core-knowledge/data-structures/extensible-features/README.md)
+    * [🧱 Generic Types](core-knowledge/data-structures/extensible-features/generic-types.md)
+    * [™ Traits](core-knowledge/data-structures/extensible-features/traits.md)
+    * [👾 Lifetime](core-knowledge/data-structures/extensible-features/lifetime.md)
+* [📦 Packages, Crates, Modules](core-knowledge/packages-crates-modules.md)
+* [🔀 Error Handling](core-knowledge/error-handling.md)
 
 ## Advanced
 
