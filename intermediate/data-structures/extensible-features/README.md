@@ -7,4 +7,14 @@ coverY: 0
 
 # 💪 Extensible Features
 
-&#x20;
+{% content-ref url="generic-types.md" %}
+[generic-types.md](generic-types.md)
+{% endcontent-ref %}
+
+{% content-ref url="traits.md" %}
+[traits.md](traits.md)
+{% endcontent-ref %}
+
+{% content-ref url="lifetime.md" %}
+[lifetime.md](lifetime.md)
+{% endcontent-ref %}
