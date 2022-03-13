@@ -13,6 +13,20 @@ The syntax is cumbersome.
 
 The concept of lifetimes is unique to Rust, will make your brain hurt, but is one of the features that makes Rust memory safe.
 
+## Ownership
+
+Recall the rules of ownership from the [Data Structures ](../data-structures/#ownership)introduction.
+
+Functions are the way ownership is more easily conceptualized.
+
+A function can
+
+* take ownership of the value
+* borrow the value immutably
+* borrow the value mutably
+
+[More information.](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html#ownership-and-functions)
+
 ## Referencing a Function
 
 A **function item** uniquely identifies a particular instance of a function.
@@ -52,9 +66,17 @@ fn baz(f: fn(u32) -> u32) {
 
 ## Closures
 
+Closures are named closures because they close over their environment. They can capture things from their environment and generate a unique function that specifically references data around their environment at the time they are created.
+
+f: F gives ownership
+
+f: \&F borrows
+
+f: \&mut F mutable borrow
+
+
+
 [A topic for later](../../advanced/functional-language-features/closures.md) but this is the name for the syntax that uses the `|` symbols.&#x20;
-
-
 
 
 
