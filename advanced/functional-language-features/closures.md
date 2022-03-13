@@ -5,15 +5,15 @@ coverY: 0
 
 # 💌 Closures
 
+{% hint style="success" %}
+Unlike functions, closures can capture values from their context (ie the scope in which they're defined).
+{% endhint %}
+
 `Closures` are anonymous functions you can save in a variable or pass as arguments to other functions.&#x20;
 
 `Closures` are identified with a pair of vertical pipes `|numb|`or `|param1, param2|` etc.
 
 `Closures` are usually short and relevant only within a narrow context rather than in any arbitrary scenario.
-
-{% hint style="success" %}
-Unlike functions, closures can capture values from their context (ie the scope in which they're defined).
-{% endhint %}
 
 ## Implementing the Function Traits
 
