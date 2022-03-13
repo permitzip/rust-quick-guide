@@ -1,5 +1,5 @@
 ---
-description: Anonymous functions that can capture their environment.
+description: A closure combined a function pointer (fn) with the environment (context)
 coverY: 0
 ---
 
@@ -12,8 +12,18 @@ coverY: 0
 `Closures` are usually short and relevant only within a narrow context rather than in any arbitrary scenario.
 
 {% hint style="success" %}
-Unlike functions, closures can capture values from the scope in which they're defined. More on that later in this section...
+Unlike functions, closures can capture values from their context (ie the scope in which they're defined).
 {% endhint %}
+
+## Implementing the Function Traits
+
+Closures implement the function trait `Fn()`, `FnMut()`, or `FnOnce()`
+
+* `FnMut()` a closure that mutably borrows from the context
+* `Fn()` a closure that immutably borrows from the context
+* `FnOnce()` takes ownership of the context. **These can only be called once.**
+
+[A great explainer of closures and their function traits from Medium](https://medium.com/swlh/understanding-closures-in-rust-21f286ed1759).
 
 ## Closure as a Cache Mechanism
 

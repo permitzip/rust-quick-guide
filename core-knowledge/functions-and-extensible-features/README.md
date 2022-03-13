@@ -29,19 +29,18 @@ A function can
 
 ## Referencing a Function
 
-A **function item** uniquely identifies a particular instance of a function.
+A **function item** uniquely identifies a particular instance of a function. A function item
 
 * has no state
-* it does not hold a pointer
-* and identifier the compiler uses to identify a specific instance of a function
-* `function items` are coercible into  a function pointer
-* has zero size because it has no obligation to read the function code yet, so no pointer can yet exist
+* _**does not hold a pointer**_
+* is coercible into  a function pointer
+* has no size because it has no obligation to read the function code yet, so no pointer can yet exist
 
-A **function pointer** is a pointer to a function **with a given signature.**&#x20;
+A **function pointer** is a pointer to a function **with a given signature.**  A function pointer
 
+* pointer points to the start of the code block that will execute when called
 * has note state
-* example: `fn(u32) -> u32`
-* above is an example of defining a function pointer that is signed by u32 in and u32 out
+* example: `fn(u32) -> u32 (`a function pointer that is signed by u32 in and u32 out)
 
 ```rust
 fn main() {
