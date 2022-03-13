@@ -3,7 +3,7 @@ description: A hyper-fast overview of important Rust features
 coverY: 0
 ---
 
-# ⛵ About
+# ⛵ Introduction
 
 ## What makes Rust so cool?
 
@@ -15,11 +15,15 @@ Don't skip the time to understand this idea deeply. It is specifically the prima
 
 Basically, when you work in Rust, only one thing can hold store (or own) your value...the value can be borrowed, lent, transferred, but only one variable can own it. You can copy it, but it's not the true value in memory.
 
-In python or JS, your values live multiple lives in memory (global scope, function scope, state, etc). In Rust, your value teleports into every scope during the [lifetime](core-knowledge/data-structures/extensible-features/lifetime.md) of the scope.
+In python or JS, your values live multiple lives in memory (global scope, function scope, state, etc). In Rust, your value teleports into every scope during the [lifetime](core-knowledge/functions-and-extensible-features/lifetime.md) of the scope.
 
 ## How to Use This Guide
 
 This book is intended to be a trimmed-down version of the official documentation that would allow curious minds to review the examples and core concepts quickly without getting bogged down too much in any one topic.&#x20;
+
+{% hint style="warning" %}
+This book is should not be used as a tutorial! Just a quick review of major topics. [The original content](https://doc.rust-lang.org/book/title-page.html) this summary and examples are based on has great step-by-step tutorials.
+{% endhint %}
 
 Rust is such a comprehensive shift in programming though and so this summary hopes to serve as a fast way to grasp core concepts and fundamentals.
 
@@ -39,7 +43,7 @@ This book is broken into the following groups
 Introductory information is not included in this package since it is well documented [elsewhere](https://doc.rust-lang.org/book/ch01-00-getting-started.html) and includes more detail than what is intended for this book.
 {% endhint %}
 
-## Credit to Original Content Creators
+## Acknowledgements
 
 {% hint style="info" %}
 This document is no more than a summary of high points from the comprehensive documentation of [The Rust Programming Language 2018 edition.](https://doc.rust-lang.org/book/title-page.html)&#x20;
@@ -50,16 +54,6 @@ I've merely consolidated the data into a quick-reference manual that hopefully w
 
 All credit of this work belongs to the authors, Steve Klabnik and Carol Nichols as well as the Rust Community contributions.
 {% endhint %}
-
-## Who am I?
-
-* I'm an electrical engineer with a piano degree that runs an MEP consulting engineering firm called [PermitZIP](http://www.permitzip.com).&#x20;
-* Started studies in software development= March 2021
-* I prefer self-study over educational institutions...which is why this document exists.&#x20;
-* Hopefully, it's useful to you - please feel free to contribute when it
-  * increases clarity
-  * increases simplicity
-  * corrects typos
 
 Happy hacking!
 
