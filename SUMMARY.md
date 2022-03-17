@@ -26,3 +26,8 @@
   * [🏟 Box\<T>](advanced/smart-pointers/box-less-than-t-greater-than.md)
   * [🤝 Rc\<T>](advanced/smart-pointers/rc-less-than-t-greater-than.md)
   * [🔙 Ref\<T> and RefMut\<T>](advanced/smart-pointers/ref-less-than-t-greater-than-and-refmut-less-than-t-greater-than.md)
+
+## 🏗 Construction Blockchain
+
+* [The Build3 Foundation](https://app.gitbook.com/o/VlWTV0GJXmoHRKrDvk52/s/z2YfZkmA9JhRhZ8lPiAO/)
+* [The Build3 Network](https://app.gitbook.com/o/VlWTV0GJXmoHRKrDvk52/s/3UKO6MPPEQpqMJk5aWx1/)
